@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<meta charset="UTF-8">
+	  	<title>Smash Faces</title>
+	  	<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	</head>
+	<body class="background">
+		<div class="container">
+			<div class="row">
+				<center class="margin">
+				<h1>SMASH FACES</h1>
+				<p class="margin">Smash Faces es un juego interactivo creado con la intención de ayudar al salón de clases a
+				que se conozcan de una manera más fácil y divertida.
+				El juego consiste en adivinar los nombres de tus compañeras de clase para lo cual el
+				programa te muestra la imagen de tu compañera y tu misión es adivinar su nombre, cada
+				nombre adivinado te da 5 puntos.</p>
+				</center>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div>
+					<form>
+						<h3>Elige tu sede:</h3>
+						<select id="mySelect">
+  							<option>Lima</option>
+  							<option>Arquipa</option>
+  							<option>Chile</option>
+  							<option>México</option>
+						</select>
+					</form>
+				</div>
+				<div class="margin col-xs-6" id="contenedorJuego">
+					<img id="imagenPersona">
+					<p>Puntaje</p><span id="spanPuntos">0</span>
+				</div>
+				<div class="margin col-xs-6">
+					<input id="inputNombre" type="text"></input>
+					<button type="button" id="btnClick">Enviar</button>
+				</div>
+			</div>
+		</div>
+		
+
+	<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- // <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+	</body>
+</html>

@@ -1,0 +1,23 @@
+.background {
+	background-color: #EED92C;
+}
+.margin{
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+#imagenPersona {
+	width: 400px;
+	height: 275px;
+	margin-right: 100px;
+}
+#btnClick {
+	background-color: #1423E7;
+	border: none;
+	color: white;
+	width: 100px;
+	margin-top: 235px;
+}
+#inputNombre {
+	width: 250px;
+	margin-top: 235px;
+}
